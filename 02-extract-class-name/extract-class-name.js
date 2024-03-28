@@ -18,7 +18,6 @@ function extractClassName(sessionTitle) {
 
   if (sessionTitle.includes("Class")) {
     let arr = sessionTitle.split(" ");
-
     let year = arr[arr.indexOf("Class") + 1];
     let month = arr[arr.indexOf("Class") + 2];
     if (

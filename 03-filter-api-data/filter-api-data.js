@@ -14,7 +14,6 @@ function filterApiData(apiData, mandatoryKeys) {
   }
   return filteredData;
 }
-
 const data = [
   { id: 1, price: 100 },
   { id: 2, title: "" },
@@ -22,5 +21,4 @@ const data = [
 ];
 
 const filteredData = filterApiData(data, ["id", "price"]);
-
 console.log(filteredData); // [{ id: 1, price: 100 }, { id:3, price: 50}]

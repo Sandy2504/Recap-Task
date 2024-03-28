@@ -12,7 +12,6 @@ function zipStrings(strA, strB) {
       result += strB[i];
     }
   }
-
   return result;
 }
 
