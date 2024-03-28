@@ -10,3 +10,4 @@
   - Use your installed VS Code Extension Live Server Extension to start one of the index.html files
 - [ ] Try to implement your solution in the `script file` of the folder
 - [ ] Do not forget to add git versioning!
+# Recap-Task
